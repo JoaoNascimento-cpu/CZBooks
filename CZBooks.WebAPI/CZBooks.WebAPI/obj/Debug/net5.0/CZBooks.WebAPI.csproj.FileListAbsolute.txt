@@ -71,3 +71,5 @@ C:\Users\jhony\Documents\Senai\CZBooks\CZBooks.WebAPI\CZBooks.WebAPI\obj\Debug\n
 C:\Users\jhony\Documents\Senai\CZBooks\CZBooks.WebAPI\CZBooks.WebAPI\obj\Debug\net5.0\ref\CZBooks.WebAPI.dll
 C:\Users\jhony\Documents\Senai\CZBooks\CZBooks.WebAPI\CZBooks.WebAPI\obj\Debug\net5.0\CZBooks.WebAPI.pdb
 C:\Users\jhony\Documents\Senai\CZBooks\CZBooks.WebAPI\CZBooks.WebAPI\obj\Debug\net5.0\CZBooks.WebAPI.genruntimeconfig.cache
+C:\Users\jhony\Documents\Senai\CZBooks\CZBooks.WebAPI\CZBooks.WebAPI\bin\Debug\net5.0\CZBooks.WebAPI.xml
+C:\Users\jhony\Documents\Senai\CZBooks\CZBooks.WebAPI\CZBooks.WebAPI\obj\Debug\net5.0\CZBooks.WebAPI.xml

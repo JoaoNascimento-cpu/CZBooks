@@ -22,8 +22,8 @@ namespace CZBooks.WebAPI.Controllers
             usuario = new UsuarioRepository();
         }
 
-        [HttpGet]
         
+        [HttpGet]
         //http://5000/api/usuario
         public IActionResult Listar()
         {
