@@ -1,0 +1,483 @@
+{
+	"info": {
+		"_postman_id": "44bb0efb-906f-43d4-a5d0-0aa861aa4baa",
+		"name": "CZBooks",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Usuarios",
+			"item": [
+				{
+					"name": "Usuario.Listar",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/Usuario",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Usuario"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Usuario.BuscarPorId",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/Usuario/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Usuario",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Usuario.Cadastrar",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"idTipoUsuario\": 3,\r\n        \"email\": \"cornonde@gmail.com\",\r\n        \"senha\": \"123456\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/Usuario",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Usuario"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Usuario.Deletar",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/Usuario/7",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Usuario",
+								"7"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "TiposUsuario",
+			"item": [
+				{
+					"name": "TiposUsuario.Listar",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://LocalHost:5000/api/TiposUsuario",
+							"protocol": "http",
+							"host": [
+								"LocalHost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"TiposUsuario"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TiposUsuario.BuscarpoId",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://LocalHost:5000/api/TiposUsuario/2",
+							"protocol": "http",
+							"host": [
+								"LocalHost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"TiposUsuario",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TipoUsuario.Atualizar",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"tituloTipoUsuario\": \"baboi\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://LocalHost:5000/api/TiposUsuario/5",
+							"protocol": "http",
+							"host": [
+								"LocalHost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"TiposUsuario",
+								"5"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TiposUsuario.Cadastrar",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"tituloTipoUsuario\": \"bubebublebubleblubluble\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://LocalHost:5000/api/TiposUsuario",
+							"protocol": "http",
+							"host": [
+								"LocalHost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"TiposUsuario"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TiposUsuario.Deletar",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://LocalHost:5000/api/TiposUsuario/4",
+							"protocol": "http",
+							"host": [
+								"LocalHost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"TiposUsuario",
+								"4"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Categoria",
+			"item": [
+				{
+					"name": "Categoria.Listar",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/Categoria",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Categoria"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Categoria.BucarPorIrd",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/Categoria/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Categoria",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Categoria.Atualizar",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"categoria1\": \"Sci-Fi\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/Categoria/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Categoria",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Categoria.Cadastrar",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"categoria1\": \"Romance\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/Categoria",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Categoria"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Categoria.Deletar",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/Categoria/4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Categoria",
+								"4"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Livro",
+			"item": [
+				{
+					"name": "Livro.Listar",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/Livro",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Livro"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Livro.BuscarPorId",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/Livro/5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Livro",
+								"5"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Livro.Cadastrar",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"idCategoria\": 2,\r\n    \"idInstituicao\": 1,\r\n    \"idAutor\": 1,\r\n    \"titulo\": \"Inaprendível\",\r\n    \"nomeAutor\": \"Sau Love\",\r\n    \"sinopse\": \"Neste livro acompanhamos a pior semana de um aluno tentando aprender JavaScript, será que ele sairá vivo?\",\r\n    \"categoria\": \"Terror\",\r\n    \"dataPublicacao\": \"1905-06-15T00:00:00\",\r\n    \"preco\": \"R$:300.00\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/Livro",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Livro"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Livro.Atualizar",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"idLivro\": 5,\r\n    \"idCategoria\": 2,\r\n    \"idInstituicao\": 2,\r\n    \"idAutor\": 2,\r\n    \"titulo\": \"O mistério do terraço\",\r\n    \"nomeAutor\": \"Caique Lindo\",\r\n    \"sinopse\": \"Muitos estudandes de Dev com notas ruins são levados ao terraço do Senai, e nunca mais são vistos... vivos!!\",\r\n    \"categoria\": \"Terror\",\r\n    \"dataPublicacao\": \"1905-06-15T00:00:00\",\r\n    \"preco\": \"R$:400.00\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/Livro/5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Livro",
+								"5"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Livro.Deletar",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/Livro/7",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Livro",
+								"7"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
